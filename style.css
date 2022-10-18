@@ -1,0 +1,63 @@
+body {
+    background-color: #D5E1EF;
+}
+
+/* Div containing code and description */
+.info-card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 9.5rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 320px;
+    height: 497px;
+    overflow: hidden;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+/* QR code */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Description heading */
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #1F314F;
+}
+/* Description text */
+p {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+    color: #7D889E;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Description container div */
+.description {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+    .info-card {
+        top: .5rem;
+    }
+}
